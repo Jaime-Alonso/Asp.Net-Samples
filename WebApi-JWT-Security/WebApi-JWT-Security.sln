@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi-JWT-Security", "WebApi-JWT-Security\WebApi-JWT-Security.csproj", "{5875ED35-DFB9-4CD8-9FE3-19DD2F91E409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D26140FC-FB3D-4247-AE1C-5ACFA187E642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi-JWT-Security.API.Tests", "WebApi-JWT-Security.API.Tests\WebApi-JWT-Security.API.Tests.csproj", "{1F4885F7-B7AE-4A20-800C-3DD56D4BBCFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5875ED35-DFB9-4CD8-9FE3-19DD2F91E409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5875ED35-DFB9-4CD8-9FE3-19DD2F91E409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5875ED35-DFB9-4CD8-9FE3-19DD2F91E409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5875ED35-DFB9-4CD8-9FE3-19DD2F91E409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4885F7-B7AE-4A20-800C-3DD56D4BBCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4885F7-B7AE-4A20-800C-3DD56D4BBCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4885F7-B7AE-4A20-800C-3DD56D4BBCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4885F7-B7AE-4A20-800C-3DD56D4BBCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F4885F7-B7AE-4A20-800C-3DD56D4BBCFB} = {D26140FC-FB3D-4247-AE1C-5ACFA187E642}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {845FB2F4-821A-49C8-AC58-1B23FCE89974}
+	EndGlobalSection
+EndGlobal
